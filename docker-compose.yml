@@ -16,6 +16,6 @@ services:
             - REDIS_PORT=6379
             - PGUSER=postgress
             - PGHOST=postgress
-            - PGDATABASE=
-            - PGPASSWORD=postgress_passwort
+            - PGDATABASE=postgress
+            - PGPASSWORD=postgress_password
             - PGPORT=5432
